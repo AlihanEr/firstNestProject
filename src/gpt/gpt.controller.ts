@@ -4,6 +4,6 @@ import { Controller, Get } from "@nestjs/common";
 export class GptController {
   @Get('/something')
   getSomething(): string {
-    return 'this is gpt get';
+    return 'this is gpt get something';
   }
 }
